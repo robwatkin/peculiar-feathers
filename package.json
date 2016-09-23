@@ -4,7 +4,7 @@
   "description": "Feathers of a peculiar nature",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/robwatkin/peculiar-feathers/issues"
   },
-  "homepage": "https://github.com/robwatkin/peculiar-feathers#readme"
+  "homepage": "https://github.com/robwatkin/peculiar-feathers#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
 }
